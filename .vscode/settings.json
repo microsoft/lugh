@@ -1,0 +1,10 @@
+{
+    "rest-client.environmentVariables": {
+        "local": {
+            "host": "http://127.0.0.1:50005"
+        },
+        "development": {
+            "host": "https://app-btqjmddxfoi5u.azurewebsites.net"
+        }
+    }
+}

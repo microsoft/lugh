@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Load seed data",
+            "type": "shell",
+            "command": "python3 -m flask seed",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "Open Flask shell",
+            "type": "shell",
+            "command": "python3 -m flask shell",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "pip install",
+            "type": "shell",
+            "osx": {
+              "command": ".venv/bin/python -m pip install -r requirements.txt"
+            },
+            "windows": {
+              "command": ".venv/Scripts/python -m pip install -r requirements.txt"
+            },
+            "linux": {
+              "command": ".venv/bin/python -m pip install -r requirements.txt"
+            },
+            "problemMatcher": [],
+            "options": {
+              "cwd": "${workspaceFolder}/src"
+            }
+        }
+    ]
+}

@@ -1,0 +1,201 @@
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "Hello and thank you for calling your member services provider. My name is Sam. To whom do I have the pleasure of speaking with today?"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "customer",
+  "utterance": "Hi, this is Erin Smith."
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "Hi there, how can I help you today?"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "customer",
+  "utterance": "I have a question about my benefits. Can you help me understand what is covered under my plan?"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "Of course, Erin. Can you please provide me with your member ID so I can pull up your account?"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "customer",
+  "utterance": "Sure, my member ID is 123456789."
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "Thank you, Erin. I have your account pulled up. What specific benefits are you inquiring about today?"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "customer",
+  "utterance": "I want to know if my plan covers physical therapy."
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "Yes, your plan does cover physical therapy. You are eligible for up to 20 sessions per year with a $20 copay per session."
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "customer",
+  "utterance": "Great, thank you for the information! I also have a question about my prescription coverage."
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "Sure, what would you like to know about your prescription coverage?"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "customer",
+  "utterance": "I need to know if my plan covers a specific medication, Lipitor."
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "Yes, your plan does cover Lipitor. You will have a $10 copay for a 30-day supply."
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "customer",
+  "utterance": "Thank you so much for your help!"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "You're welcome, Erin. Is there anything else I can assist you with today?"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "customer",
+  "utterance": "No, that's all. Thank you!"
+}
+
+###
+
+POST {{host}}/utterance
+Content-Type: application/json
+
+{
+  "callAgent": "kermit-a-frog",
+  "callId": "a1b2c3d4-3f4b-4c9e-8a5d-1f2b3c4d5e6f",
+  "speaker": "advocate",
+  "utterance": "Thank you for calling. Have a great day!"
+}

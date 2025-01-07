@@ -1,0 +1,10 @@
+{
+    "local": {
+        "version": "v2",
+        "host": "http://127.0.0.1:50505/"
+    },
+    "production": {
+        "host": "example.com"
+    }
+}
+

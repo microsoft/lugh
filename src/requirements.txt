@@ -1,0 +1,7 @@
+azure-cosmos
+azure-identity
+azure-monitor-opentelemetry
+azure-monitor-opentelemetry-exporter
+flask[async]
+python-dotenv
+semantic_kernel

@@ -1,0 +1,67 @@
+You are to determine the category using the description based on the input provided
+
+Here are key words of categories to select
+    Plan : 
+        ANOC changes, annual notice of change, modifications, coverage, document, actions, benefits, deadlines, DMR, Direct Member Reimbursement, reimbursement process, documentation requirements, eligibility criteria, educational resources, tutorials, prescriptions, riders, insurance policy, adding riders, removing riders, updating rider information, terms and conditions, paperwork, family members, passport coverage, updating passport, renewing passport, managing passport, security measures, Medicaid coverage, benefits, coverage changes, eligibility criteria, limitations, rights, options, applying for coverage, renewing coverage, updating coverage, COB, Coordination of Benefits, forms, procedures, required documents, impact on coverage, online tools, timeline, LIS, Low-Income Subsidy, subsidy, medical benefits, rewards program, redeeming rewards, claiming benefits, promotions, special rewards events.
+    Member : 
+        Complaints, appeals, grievances, denied claim, dedicated department, status, timelines, procedures, documentation, escalating, rights, specialists, auxiliary persons, authorized individuals, representatives, caregivers, paperwork, family members, scheduling appointments, healthcare providers, time slots, rescheduling, canceling, online platforms, urgent care, confirming details, assigning providers, primary care physician, specialists, network, reviews, ratings, informative email, member materials, digital format, printed format, resources, updates, customization options, secure email, PHI, claims, profile information, prescription history, health records, social determinants of health, social support services, address, mailing address, temporary address, permanent address, residence information, member profile, contact data, preferences.
+    Billing : 
+        Repayment plan, process, options, eligibility criteria, implications, timeline, deadlines, specialized departments, billing statement, specific charges, reconciling discrepancies, accepted payment methods, late fees, penalties, automatic payments, helpline, late enrollment penalty (LEP), managing penalty, appealing charge, disputing fee, impact on coverage, appeal process, requirements, payment details, payment methods, declined payments, Accounts Receivable Conversion (ARC), opt-out, terms and conditions, confirmation process, account history, HUD (Housing and Urban Development), transactions, trends, patterns, account reports, premium payment discrepancies, refunds, incorrect charges, refund options, refund policy.
+    Claim : 
+        Medical claim history, doctor visits, updates, changes, discrepancies, resources, guidance, enhancements, dental claim history, dentist visits, entries, assistance.
+    Enrollment :
+        Canceling, withdrawing, enrollment materials, disenrollment process, canceling account, ending coverage, withdrawing from plan, closing account, removing from system, reinstating membership, re-initiate coverage, re-enroll, renew membership, eligibility, specific steps.
+    Application : 
+        Changing insurance plan, available plan options, process, eligibility criteria, implications, benefits, additional costs, timeline, plan change requests, coverage, features, specific form, procedure, submitted application, updates, additional information, processing applications, review process, issues, delays, necessary documents, criteria, contact information, updating application, changes, corrections, verification, restrictions, accurate processing.
+    Pharmacy : 
+        Pharmacy claims, prescription history, recent claims, purchase history, specific claims, clarification, prescription refill, medication orders, prescription bills, coverage stage, doughnut hole, coverage gap, benefits, cost-sharing, deductible status, transitioning stages, Explanation of Benefits (EOB), specific items, terms, charges, nearby pharmacy, pharmacy locator tool, criteria, additional features, network pharmacies, pricing prescriptions, cheapest medication, formulary lookup, generic brand, covered medication, drug tiers, Rx benefits, prescription delivery, eligibility criteria, delivery time.
+    General : 
+        Emotional support, connection, grief, lonely, birthday, comfort, emotions, advice, physical support, empathetic responses, suggestions, resources, cope, difficult times, transfer, supervisor, higher authority, concerns, escalate, complaint, urgent intervention, backoffice, specialized team, escalated issue, assistance, escalation department, attention, escalation process, review, direct contact, outbound call campaigns, purpose, calls, messages, details, content, clarify, opt-out, voicemails, products/services, feedback, marketing call, customer advocate, service representative, issue, agent, website issues, technical problems, bugs, glitches, errors, guidance, troubleshooting, navigation, web browser errors, functionality issues, online account problems, helpdesk.
+    Conversation:
+        These are generic conversational utterances like introductions, "Hello" and "How are you today".  Also use this category if a another categories can not be determined.
+
+
+ONLY RETURN THE SINGLE Category
++++++
+
+{{$input}}
+++++++
+Input: I've been feeling depressed.
+
+General
+
+++++++
+Input: Can you provide details on the recent changes to my insurance plan?
+
+Plan
+
++++++
+Input: I'd like to schedule an appointment; can you assist with that?
+
+Member
+
++++++++
+Input: I want to opt out of the accounts Receivable conversion, can you assist me?
+
+Billing
+
++++++++
+Input: Can you provide information on how to access and understand my medical claim history?
+
+Claim
+
+++++++
+Input: I want to discuss options forending my current coverage.
+
+Enrollment
+
++++++++
+Input: I want to discuss the process of updating specific details in my application form.
+
+Application
+
++++++++
+Input: Can you guide me on how to use the Formulary Lookup tool to find specific drugs?
+
+Pharmacy
+
